@@ -20,8 +20,8 @@ handleChange(input){
 
   render() {
     return (
-      <div className="Main-Page-Background">
-        <div className='box'>
+      <div className="Main-Page-Background">{/*SIM-3 54C*/}
+        <div className='box' style=""> {/*SIM-3 54J*/} 
           <div className='box-image' /> 
           <h1>Helo</h1>
           <a href={process.env.REACT_APP_LOGIN} className='box-button'>
@@ -30,7 +30,7 @@ handleChange(input){
         </div>
         <Component1 /*SIM-3 36H*/
         sentence={this.state.sentence} 
-        handleChange={this.handleChange}/>
+        handleChange={this.handleChange}/> {/*SIM-3 54G*/}
       </div>
     );
   }

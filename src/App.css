@@ -47,3 +47,6 @@
   align-items: center;
   cursor: pointer;
 }
+.floating {
+  float: right; /*SIM-3 25D*/
+}
